@@ -1,0 +1,234 @@
+{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/api/Employees",
+      "DownstreamScheme": "https",
+      "DownstreamHttpMethod": "GET",
+      "RouteIsCaseSensitive": false,
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "7227"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/EmployeeServiceAllGet",
+      "UpstreamHttpMethod": [ "GET" ]
+
+    },
+    {
+      "DownstreamPathTemplate": "/api/Employees/{id}",
+      "DownstreamScheme": "https",
+      "DownstreamHttpMethod": "GET",
+      "RouteIsCaseSensitive": false,
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "7227"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/EmployeeServiceGetById/{id}",
+      "UpstreamHttpMethod": [ "GET" ]
+
+    },
+    {
+      "DownstreamPathTemplate": "/api/Employees/{id}",
+      "DownstreamScheme": "https",
+      "DownstreamHttpMethod": "PUT",
+      "RouteIsCaseSensitive": false,
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "7227"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/EmployeeServicePut/{id}",
+      "UpstreamHttpMethod": [ "PUT" ]
+
+    },
+    {
+      "DownstreamPathTemplate": "/api/Documents/{id}",
+      "DownstreamScheme": "https",
+      "DownstreamHttpMethod": "DELETE",
+      "RouteIsCaseSensitive": false,
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "7227"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/Documents/{id}",
+      "UpstreamHttpMethod": [ "DELETE" ]
+
+    },
+    {
+      "DownstreamPathTemplate": "/api/Employees",
+      "DownstreamScheme": "https",
+      "DownstreamHttpMethod": "POST",
+      "RouteIsCaseSensitive": false,
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "7296"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/AdminServicePost",
+      "UpstreamHttpMethod": [ "POST" ]
+
+    },
+    {
+      "DownstreamPathTemplate": "/api/Employees/ForgotPassword",
+      "DownstreamScheme": "https",
+      "DownstreamHttpMethod": "PUT",
+      "RouteIsCaseSensitive": false,
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "7296"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/Employees/ForgotPassword",
+      "UpstreamHttpMethod": [ "PUT" ]
+
+    },
+    {
+      "DownstreamPathTemplate": "/api/Employees/SearchEmployee",
+      "DownstreamScheme": "https",
+      "DownstreamHttpMethod": "GET",
+      "RouteIsCaseSensitive": false,
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "7296"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/Employees/SearchEmployee",
+      "UpstreamHttpMethod": [ "GET" ]
+
+    },
+    {
+      "DownstreamPathTemplate": "/api/Employees/{id}",
+      "DownstreamScheme": "https",
+      "DownstreamHttpMethod": "PUT",
+      "RouteIsCaseSensitive": false,
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "7296"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/AdminServicePut/{id}",
+      "UpstreamHttpMethod": [ "PUT" ]
+
+    },
+    {
+      "DownstreamPathTemplate": "/api/Employees/{id}",
+      "DownstreamScheme": "https",
+      "DownstreamHttpMethod": "DELETE",
+      "RouteIsCaseSensitive": false,
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "7296"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/AdminServiceDelete/{id}",
+      "UpstreamHttpMethod": [ "DELETE" ]
+
+    },
+    {
+      "DownstreamPathTemplate": "/validate",
+      "DownstreamScheme": "https",
+      "DownstreamHttpMethod": "POST",
+      "RouteIsCaseSensitive": false,
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "7137"
+        }
+      ],
+      "UpstreamPathTemplate": "/validate",
+      "UpstreamHttpMethod": [ "POST" ]
+
+    },
+    {
+      "DownstreamPathTemplate": "/api/Departments",
+      "DownstreamScheme": "https",
+      "DownstreamHttpMethod": "GET",
+      "RouteIsCaseSensitive": false,
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "7296"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/Departments",
+      "UpstreamHttpMethod": [ "GET" ]
+
+    },
+    {
+      "DownstreamPathTemplate": "/api/Projects",
+      "DownstreamScheme": "https",
+      "DownstreamHttpMethod": "GET",
+      "RouteIsCaseSensitive": false,
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "7296"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/Projects",
+      "UpstreamHttpMethod": [ "GET" ]
+
+    },
+    {
+      "DownstreamPathTemplate": "/api/ReportingManagers",
+      "DownstreamScheme": "https",
+      "DownstreamHttpMethod": "GET",
+      "RouteIsCaseSensitive": false,
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "7296"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/ReportingManagers",
+      "UpstreamHttpMethod": [ "GET" ]
+
+    },
+    {
+      "DownstreamPathTemplate": "/api/TblDesignations",
+      "DownstreamScheme": "https",
+      "DownstreamHttpMethod": "GET",
+      "RouteIsCaseSensitive": false,
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "7296"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/TblDesignations",
+      "UpstreamHttpMethod": [ "GET" ]
+
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/Documents/{empid}",
+      "DownstreamScheme": "https",
+      "DownstreamHttpMethod": "GET",
+      "RouteIsCaseSensitive": false,
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "7227"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/GetLoggedinEmpDocuments/{empid}",
+      "UpstreamHttpMethod": [ "GET" ]
+
+    }
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "https://localhost:7119"
+  }
+
+}

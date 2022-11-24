@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "ZR1HtfK3htsoOoCiIwk4Yb2dcQ6ocebSIzEwKnNj4VU=",
+  "Source": "EMSEmployeeService",
+  "BasePath": "_content/EMSEmployeeService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "EMSEmployeeService\\wwwroot",
+      "Source": "EMSEmployeeService",
+      "ContentRoot": "C:\\Users\\cogdotnet1693\\source\\repos\\EMSEmployeeService\\wwwroot\\",
+      "BasePath": "_content/EMSEmployeeService",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\cogdotnet1693\\source\\repos\\EMSEmployeeService\\wwwroot\\638036222395308466.png",
+      "SourceId": "EMSEmployeeService",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\cogdotnet1693\\source\\repos\\EMSEmployeeService\\wwwroot\\",
+      "BasePath": "_content/EMSEmployeeService",
+      "RelativePath": "638036222395308466.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\638036222395308466.png"
+    }
+  ]
+}
